@@ -2,33 +2,70 @@
 
 
 
-.coaches_container{
-
+.coaches_list{
     align-content: center;
     /* background-color: #D46A6A; */
     /* background-image: url(/Users/mark/Desktop/Bluefins Website/bluefins-website/src/image/flower2.jpg);
     background-size: cover; */
     text-align: center;
-
-
+   
+      /* border: 1px solid rgb(57, 61, 11); */
+      border-radius: 5px;
+      /* background-color: #d4e5e7; */
 }
-h2{
-    background-color: rgba(181, 186, 176, 0.033);
-    color: #7B7A7F;
+.coaches_card{
+    display: flex;
+    flex-direction:column;
+    border: 1px solid rgb(173, 204, 206);
+    border-radius: 25px;
+    padding: 0px 25px;
+    margin: 10px 25px;
+    cursor: pointer;
     text-align: left;
-    border: 5px solid #A2A4A9;
-
     
+   
+    background: linear-gradient(
+        to left,
+        rgb(8, 162, 238) 0%,
+        rgba(155, 202, 209, 0.101) 100%
+       
+      );
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+}
+.coaches_card:hover {
+    transform: scale(1.05);
+  }
+  .coaches_card p{
+    line-height: 50px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
-  
+
+    /* font-family: 'Bigelow Rules', cursive;
+    font-family: 'Rubik Gemstones', cursive;
+    font-family: 'Rubik Moonrocks', cursive; */
+  }
+
+
+  img{
+    float: left;
+  }
+  footer{
+    /* used immediately after float */
+    clear: both;
+  }
+h1{
+    border-bottom: 2px solid pink;
+    width: 350px;
+    text-align: center;
+    border-right: 2px solid pink;
 }
 
-p{
-    color:#222122
-}
 
-img{
-    width: 300px;
-    height: 300px;
-}
+
+
 
