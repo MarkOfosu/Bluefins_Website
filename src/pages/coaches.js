@@ -19,7 +19,7 @@ const CoachesPage = () => {
         Desmond: {
             name: 'Desmod Amponsah',
             title: 'Head Swim Coach',
-            image: {ImageDesemond},
+            image: ImageDesemond,
             shortInfo: "Desmond joined Ghana BlueFins in early 2017 as a swim coach and previously worked with Finishline Swimming Academy in 2015. He was a competitive swimmer for the University of Ghana and graduated from the university with a degree in Sociology. He continues to swim competitively for Ghana BlueFins at swim meets in addition to being a coach. He has many hobbies, one of which includes learning new languages (he can speak 8 different languages!). His ability to speak French, English, and ASL (American Sign Language) make him invaluable when teaching foreigners and the deaf to swim. Desmond enjoys teaching swimming and loves finding ways to help swimmers reach their goals. Desmond is a FINA level 2 swim coach."    
         },
 
@@ -57,7 +57,7 @@ const CoachesPage = () => {
             {coaches.map(coach => (
             
                     <div className ={classes.coaches_card} key={coach.id}>
-                        <image src={coach.image} alt="coaches's image"/>
+                        <img src={coach.image} alt="coaches's image"/>
                         <h1>{coach.name}</h1>
                         <h3>{coach.title}</h3>
                         <p>{coach.shortInfo}</p> 

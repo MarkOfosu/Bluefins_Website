@@ -10,8 +10,9 @@
     text-align: center;
    
       /* border: 1px solid rgb(57, 61, 11); */
-      border-radius: 5px;
+      border-radius: 15px;
       /* background-color: #d4e5e7; */
+      
 }
 .coaches_card{
     display: flex;
@@ -19,7 +20,7 @@
     border: 1px solid rgb(173, 204, 206);
     border-radius: 25px;
     padding: 0px 25px;
-    margin: 10px 25px;
+    /* margin:  40px; */
     cursor: pointer;
     text-align: left;
     
@@ -51,12 +52,15 @@
   }
 
 
-  img{
-    float: left;
+  .coaches_card img{
+    /* border-top: 90px; */
+    /* float: left; */
+    width:350px;
+    height: 350px;
   }
   footer{
     /* used immediately after float */
-    clear: both;
+    /* clear: both; */
   }
 h1{
     border-bottom: 2px solid pink;
