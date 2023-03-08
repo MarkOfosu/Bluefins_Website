@@ -15,8 +15,6 @@ return(
        
       <MainNavigation />
 
-
-
         <Routes>
             <Route path='/' element={<HomePage />} />
             <Route path='/aboutUs' element={<AboutUsPage />} />

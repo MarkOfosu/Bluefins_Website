@@ -67,6 +67,7 @@ h1{
     width: 350px;
     text-align: center;
     border-right: 2px solid pink;
+    box-shadow: 8px 8px 10px #473434;
 }
 
 
